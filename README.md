@@ -1,4 +1,4 @@
-# BDLSTM_speech_recognition
+# BDLSTM Speech Recognition
 The original dataset had over 100K recordings of 35 words spoken in different tones and pitches. I tried to build a multiclass classification model using Neural network.
 
 The audio was in `.wav` formats. I used the librosa library to extract the mfcc, mfcc-delta and mfcc-delta-delta features to get a numerical representation of the audio files. I tried the model I developed on mel features alone and the above mfcc and mel features appended together, however the novel mfcc features seem to work the best with the highest accuracy.
